@@ -1,5 +1,6 @@
 # Solo-Final-Project-DS3850---Braden-Clark
 Final Project for Business Apps Develop
+
 The project is split into multiple Python files so each part of the app has a clear responsibility. Here’s what each file does:
 
 (main.py) 
