@@ -28,7 +28,7 @@ Required packages to run the files are pandas, numpys, sqlite3, and tkinter. Mak
 How to run the app
 
 1. Make sure you have Python installed
-2. 
+   
 This project requires Python 3.8 or newer.
 If you’re not sure what version you have, open a terminal (Command Prompt, PowerShell, or macOS Terminal) and type:
 
@@ -58,13 +58,13 @@ Your project should look like this:
 Code
 
 freelance_tracker/
-│
-├── main.py
-├── db.py
-├── clients.py
-├── sessions.py
-├── summary.py
-└── utils.py
+
+ main.py
+ db.py
+ clients.py
+ sessions.py
+ summary.py
+ utils.py
 
 Make sure all files stay in the same folder. They depend on each other.
 
@@ -92,31 +92,11 @@ You don’t need to set anything up manually. The tables are created for you.
 6. Start using the app
 Once the window opens, you’ll see three tabs:
 
-Clients - 
+Clients - Add new clients, View all clients, Their hourly rates and contact info
 
-Add new clients
+Sessions - Log work sessions, Filter sessions by client, Delete sessions, View calculated earnings per session
 
-View all clients
-
-Their hourly rates and contact info
-
-Sessions - 
-
-Log work sessions
-
-Filter sessions by client
-
-Delete sessions
-
-View calculated earnings per session
-
-Pay Summary & Invoices - 
-
-Generate a Pandas/NumPy summary
-
-Export the summary to CSV
-
-Create a plain‑text invoice for any client
+Pay Summary & Invoices - Generate a Pandas/NumPy summary, Export the summary to CSV, Create a plain‑text invoice for any client
 
 Everything you enter is saved instantly to the database.
 
