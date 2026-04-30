@@ -53,12 +53,17 @@ Your project should look like this:
 
 freelance_tracker/
 
- main.py
- db.py
- clients.py
- sessions.py
- summary.py
- utils.py
+- main.py
+
+- db.py
+
+- clients.py
+
+- sessions.py
+
+- summary.py
+
+- utils.py
 
 Make sure all files stay in the same folder. They depend on each other.
 
