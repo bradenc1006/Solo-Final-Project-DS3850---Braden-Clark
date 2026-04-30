@@ -32,8 +32,6 @@ How to run the app
 This project requires Python 3.8 or newer.
 If you’re not sure what version you have, open a terminal (Command Prompt, PowerShell, or macOS Terminal) and type:
 
-Code
-
 python --version
 
 If Python isn’t installed, download it from:
@@ -45,8 +43,6 @@ Make sure to check “Add Python to PATH” during installation.
    
 The app uses Pandas and NumPy for the summary calculations. Install them by running:
 
-Code
-
 pip install pandas numpy
 
 Tkinter and SQLite come bundled with most Python installations, so you shouldn’t need to install anything extra for those.
@@ -54,8 +50,6 @@ Tkinter and SQLite come bundled with most Python installations, so you shouldn�
 3. Download or clone the project folder
    
 Your project should look like this:
-
-Code
 
 freelance_tracker/
 
@@ -76,15 +70,12 @@ Navigate to the folder where main.py lives.
    
 Start the program by running:
 
-Code
-
 python main.py
 
 After a moment, a window titled “Freelance Time & Pay Tracker” will appear.
 
 If this is your first time running it, the app will automatically create a SQLite database file called:
 
-Code
 freelance.db
 
 You don’t need to set anything up manually. The tables are created for you.
@@ -109,7 +100,6 @@ The app safely closes the database connection behind the scenes.
     
 Just run:
 
-Code
 python main.py
 again.
 
