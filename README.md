@@ -25,6 +25,7 @@ The database file (freelance.db) is created in the same directory as the code. E
 Required packages to run the files are pandas, numpys, sqlite3, and tkinter. Make sure you have the latest version of python installed too.
 
 How to Run the App
+
 Make sure you have newest Python installed.
 
 Install the required packages:
